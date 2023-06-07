@@ -3,9 +3,10 @@ A collection of scripts for access to test data for the OGC GeoDataCubes working
 
 We will be making two datasets available for our use case. These can both be accessed through our polytope client library which will then pull the data from MARS. Instructions to install the packages can be found here https://github.com/ecmwf-projects/polytope-client, polytope is a python library and can be installed using pip. To access the data you must create an account at www.ecmwf.int and then your api key can be found at https://api.ecmwf.int/v1/key/. 
 
-The two datasets are from our Medicane data. 
+The two datasets are from two medicanes:
 
 •	Trixie, initial dates [2016-10-26,  2016-10-28]
+
 •	Ianos, initial dates [2020-09-15, 2020-09-16]
 
 The two experiments are expver ht3e (Tco2559, 4.4km) and expver hsvs (Tco1279, 9km). 
