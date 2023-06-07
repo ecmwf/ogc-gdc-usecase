@@ -5,9 +5,9 @@ We will be making two datasets available for our use case. These can both be acc
 
 The two datasets are from two medicanes:
 
-•	Trixie, initial dates [2016-10-26,  2016-10-28]
+* Trixie, initial dates [2016-10-26,  2016-10-28]
 
-•	Ianos, initial dates [2020-09-15, 2020-09-16]
+* anos, initial dates [2020-09-15, 2020-09-16]
 
 The two experiments are expver ht3e (Tco2559, 4.4km) and expver hsvs (Tco1279, 9km). 
 
@@ -19,4 +19,4 @@ The current scripts download between 22 and 24 GB for each experiment.
 This repo contains scripts to download the experiments some of the data but the requests can be changed to make them smaller or request all the data. This can be done by editing the MARS request in the scripts. You can edit the MARS request here https://apps.ecmwf.int/mars-catalogue/?class=rd&expver=hsvs&stream=oper&type=fc&levtype=pl&date=2020-09-15 for hsvs, and here https://apps.ecmwf.int/mars-catalogue/?class=rd&expver=ht3e&stream=oper&type=fc&levtype=pl&date=2016-10-28 for ht3e and generate a new MARS request that can be used in the scripts.
 Please also edit the scripts putting your email and api key in where <user_email> and <user_api_key> are.
 
-If you have any questions or issues please contact me at adam.warde@ecmwf.int or James Hawkes james.hawkes@ecmwf.int.
+If you have any questions or issues please contact Adam Warde adam.warde@ecmwf.int or James Hawkes james.hawkes@ecmwf.int.
